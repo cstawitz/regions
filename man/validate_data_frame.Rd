@@ -16,7 +16,7 @@ validate_data_frame(
 \item{dat}{A data frame input to be validated.}
 
 \item{geo_var}{The variable that contains the geographical codes in the
-NUTS typologies, defaults to code{"geo_var".}}
+NUTS typologies, defaults to \code{"geo_var".}}
 
 \item{nuts_year}{The year of the NUTS typology to use.}
 

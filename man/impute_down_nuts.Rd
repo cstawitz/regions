@@ -18,7 +18,7 @@ for the geo codes of the units, \code{values} for the values, and
 optionally \code{method} for describing the data source.}
 
 \item{geo_var}{The variable that contains the geographical codes in the
-NUTS typologies, defaults to code{"geo_var".}}
+NUTS typologies, defaults to \code{"geo_var".}}
 
 \item{values_var}{The variable that contains the upstream data to be
 imputed to the downstream data, defaults to \code{"values"}.}
@@ -64,7 +64,7 @@ impute_down_nuts(mixed_nuts_example, nuts_year = 2016)
 }
 }
 \seealso{
-Other impute functions: 
-\code{\link{impute_down}()}
+Other impute functions:
+\code{\link[=impute_down]{impute_down()}}
 }
 \concept{impute functions}

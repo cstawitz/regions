@@ -1,4 +1,4 @@
-#' regions: A package for working with regional statistics.
+#' regions: A package for working with regional statistics
 #'
 #' The regions package provides four categories of functions:
 #' validate, recode, impute and aggregate.

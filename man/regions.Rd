@@ -2,8 +2,9 @@
 % Please edit documentation in R/regions.R
 \docType{package}
 \name{regions}
+\alias{regions-package}
 \alias{regions}
-\title{regions: A package for working with regional statistics.}
+\title{regions: A package for working with regional statistics}
 \description{
 The regions package provides four categories of functions:
 validate, recode, impute and aggregate.
@@ -45,3 +46,27 @@ for example from \code{NUTS1} to \code{NUTS2} or from
 \code{ISO-3166-1} to \code{ISO-3166-2}.
 }
 
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://regions.dataobservatory.eu/}
+  \item Report bugs at \url{https://github.com/rOpenGov/regions}
+}
+
+}
+\author{
+\strong{Maintainer}: Daniel Antal \email{daniel.antal@ceemid.eu} (\href{https://orcid.org/0000-0001-7513-6760}{ORCID})
+
+Authors:
+\itemize{
+  \item Daniel Antal \email{daniel.antal@ceemid.eu} (\href{https://orcid.org/0000-0001-7513-6760}{ORCID})
+}
+
+Other contributors:
+\itemize{
+  \item Kasia Kulma (\href{https://orcid.org/0000-0002-2952-9720}{ORCID}) [contributor]
+  \item Istvan Zsoldos \email{istvan.zsoldos@gmail.com} (\href{https://orcid.org/0000-0001-5712-2103}{ORCID}) [contributor]
+  \item Leo Lahti \email{leo.lahti@iki.fi} (\href{https://orcid.org/0000-0001-5537-637X}{ORCID}) [contributor]
+}
+
+}
